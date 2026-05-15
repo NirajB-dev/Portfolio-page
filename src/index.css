@@ -33,6 +33,10 @@ h6 {
   font-family: "Geist", sans-serif;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   overflow: hidden;
 }
