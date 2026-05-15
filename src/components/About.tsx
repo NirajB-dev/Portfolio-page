@@ -10,7 +10,7 @@ const About = () => {
           College Dublin, specialising in Future Networked Systems. I have close to
           two years of professional experience building production systems in Python
           and React, and my dissertation is in multi-agent reinforcement learning. I
-          enjoy working on hard problems from zero to one — distributed systems, AI
+          enjoy working on hard problems from zero to one - distributed systems, AI
           pipelines, and full-stack products that ship to real users.
         </p>
       </div>
