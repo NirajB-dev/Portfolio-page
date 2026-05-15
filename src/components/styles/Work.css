@@ -88,6 +88,32 @@
   font-size: 16px;
 }
 
+.carousel-project-type {
+  font-size: 13px;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.carousel-roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.carousel-role-badge {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 2px 8px;
+  opacity: 0.85;
+}
+
 .carousel-tools {
   margin-top: 16px;
 }

@@ -15,58 +15,60 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>M.Sc. Computer Science</h4>
+                <h5>Trinity College Dublin</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Specialising in Future Networked Systems. Dissertation in
+              multi-agent reinforcement learning. Building distributed systems,
+              AI pipelines, and full-stack products across coursework and
+              independent projects.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Software Developer</h4>
+                <h5>Humanify Technologies</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023–25</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Oct 2023 – Jul 2025. Built and maintained production systems in
+              Python and React. Delivered full-stack features end-to-end,
+              collaborated with cross-functional teams, and contributed to
+              system reliability and performance improvements.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Software Dev Intern</h4>
+                <h5>Humanify Technologies</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Jul 2023 – Oct 2023. Interned before converting to a full-time
+              role. Contributed to backend services and frontend features,
+              gaining hands-on experience with the production codebase and
+              development workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Software Dev Intern</h4>
+                <h5>Analytics Vidhya</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Feb 2022 – May 2022. Worked on data-driven features and tooling.
+              Gained experience with ML workflows, data pipelines, and
+              engineering best practices in an applied AI environment.
             </p>
           </div>
         </div>
