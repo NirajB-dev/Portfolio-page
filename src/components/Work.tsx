@@ -3,6 +3,8 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const base = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "Beacon",
@@ -10,7 +12,7 @@ const projects = [
     type: "TCD M.Sc. · CS7NS1 · Production",
     tools: "Go · React 18 · Flutter · PostgreSQL · Redis · ClickHouse · GCP Pub/Sub · Airflow · GKE · Vertex AI · Twilio · Keycloak",
     roles: ["SRE", "Backend", "FDE"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: "https://beacon-tcd.tech",
   },
   {
@@ -19,7 +21,7 @@ const projects = [
     type: "TCD M.Sc. · CS7NS6 · Production",
     tools: "Python · FastAPI · PostgreSQL · Redis · RabbitMQ · React 18 · Tailwind · shadcn/ui · Docker · Prometheus · Grafana · k6",
     roles: ["SDE", "SRE"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: "https://github.com/cs7ns6-group-e/traffic-service",
   },
   {
@@ -28,7 +30,7 @@ const projects = [
     type: "Personal Project",
     tools: "React 18 · TypeScript · CSS-in-JS · CSS Custom Properties · Node.js · REST API · Jest · Lighthouse 94",
     roles: ["Frontend"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: "https://github.com/NirajB-dev/BuilderX",
   },
   {
@@ -37,7 +39,7 @@ const projects = [
     type: "TCD M.Sc. · CS7IS5",
     tools: "React Native · Expo · Node.js · Express · PostgreSQL · Supabase · Zustand · GitHub Actions · iOS & Android",
     roles: ["Frontend"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: "https://github.com/Explorify-Ad/Explorify",
   },
   {
@@ -46,7 +48,7 @@ const projects = [
     type: "Personal Project · In Progress",
     tools: "Python · Redis · PostgreSQL · FastAPI · Docker · Prometheus · Grafana · k6 · pytest",
     roles: ["Backend", "SDE"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: undefined,
   },
   {
@@ -55,7 +57,7 @@ const projects = [
     type: "Personal Project",
     tools: "C++17 · Python · Linux · POSIX Threads · Non-blocking TCP · select() · epoll() · Makefile",
     roles: ["SDE"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: undefined,
   },
   {
@@ -64,7 +66,7 @@ const projects = [
     type: "Personal Project",
     tools: "Python · LangChain · FastAPI · JSON-RPC 2.0 · TypeScript · Docker · Jest · Anthropic / OpenAI · SSE",
     roles: ["FDE", "AI/ML"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: undefined,
   },
   {
@@ -73,7 +75,7 @@ const projects = [
     type: "TCD M.Sc. · CS7NS1",
     tools: "Python · TensorFlow · Keras · TFLite · CNN · OpenCV · Raspberry Pi · CUDA · WSL",
     roles: ["AI/ML"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: "https://gitlab.scss.tcd.ie/bharambn/cs7ns1-mainproject2",
   },
   {
@@ -82,7 +84,7 @@ const projects = [
     type: "Personal Project · In Progress",
     tools: "Python · FastAPI · LangChain · ChromaDB · sentence-transformers · GitHub API · TypeScript · Docker · Anthropic",
     roles: ["AI/ML", "FDE", "Backend"],
-    image: "/images/placeholder.webp",
+    image: `${base}images/placeholder.webp`,
     link: undefined,
   },
 ];
